@@ -8,16 +8,17 @@ This tutorial outlines prerequisites and implementation of network drive mapping
  
   <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://youtu.be/0rPyNMxnIKc)
+- ### [YouTube: How To Map a Network Drive Using Group Policy](https://youtu.be/0rPyNMxnIKc)
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Oracle Virtual Box (Virtual Machines/Compute)
+- Server Manager
+- Domain Controller
+- A Client PC
 
 <h2>Operating Systems Used </h2>
-
+- Windows Server 2022
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
