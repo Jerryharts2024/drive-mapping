@@ -124,5 +124,16 @@ This tutorial outlines prerequisites and implementation of network drive mapping
     - add EMPLOYEE DATA folder location  (this is the network path for the folder can be obtained in the property / sharing)
     - assign drive letter and make the drive visible by checking on show this drive.
     
-   
+<br />
+
+
+<h3>Step :7 Login to the Client Machine to see the Mapped Drive.</h3>
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/240857572-7c451cc1-d59a-4b96-bce6-369b13001689.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
+- Login to the Client Machine to see the Mapped Drive. 
+- At this pooint, the network drive has been mapped. And we need to login to the client computer to see if it was successful.
+- to do this, let's login to the client machine using Jane Doe. Remember Jane Doe is the only domain User who is also member of our employee security group
+- Go to PC to see if the drive has been mapped.
 <br />
