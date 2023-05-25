@@ -23,6 +23,7 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 - Used as a DC and a Client
 
 <h2>List of Prerequisites</h2>
+
 - Create AWS instances (A Client and a Domain Controller) Join them to the DC domain
 - Login to the DC
 - In Active Directory Users and Computers Create New users
