@@ -42,7 +42,7 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 <h2>Deployment and Configuration Steps</h2>
 <br />
 
-<h3>Step 1: Setup Resources in AWS</h3>
+<h3>Step 1: Create AWS instances & Setup Resources in AWS</h3>
 <p>
 <img src="https://user-images.githubusercontent.com/131130119/240813655-64dfacb1-ad19-4943-85cd-dd66789a3854.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
 </p>
@@ -53,26 +53,15 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 
 <br />
 
-
-
-
-
-<h2>Deployment and Configuration Steps</h2>
-<br />
-<h3>Step 1: Setup Resources in Azure</h3>
+<h3>Step 2: In Active Directory Users and Computers Create New users</h3>
 <p>
-<img src="https://user-images.githubusercontent.com/131130119/235380469-c636f956-79d5-43b5-957a-169052ec218b.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+<img src="https://user-images.githubusercontent.com/131130119/240815888-9afa5986-00eb-4114-9c3e-183d424e990a.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
 </p>
 
-- Create the Domain Controller VM (Windows Server 2022) named “DC-1”
-  - create new virtual machine
-  - name the VM
-- Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
-  - ensure that a resource group is created this time and intall the VM in the RG 
-- Set Domain Controller’s NIC Private IP address to be static
-  - In Azure, go to the network topology change the NIC IP to static
-- Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in Step 1.a
-- Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
+- In Active Directory Users and Computers Create New Organisational Unit and add a user to it. 
+    - right click on the domain name, go to --> new --> organisational unit 
+    - to add user, right click on the unit and go to --> New --> user --> and create new user.
+    - For this sake of this demostration we have create an organisational unit called EMPLOYEE and we have added a user called Jane Doe to it. 
 
 <br />
 
