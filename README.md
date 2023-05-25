@@ -11,32 +11,29 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 - ### [YouTube: How To Map a Network Drive Using Group Policy](https://youtu.be/0rPyNMxnIKc)
 
 <h2>Environments and Technologies Used</h2>
-
-- Oracle Virtual Box (Virtual Machines/Compute)
-- Server Manager
+- Amazon Web Services - AWS (Instance Machines/Compute)
 - Domain Controller
+- Server Manager
 - A Client PC
+- Remote Destop Connection (RDP)
+- Group Policy Management
 
 <h2>Operating Systems Used </h2>
-- Windows Server 2022
-- Windows 10</b> (21H2)
+- Windows Server 2022 (2 instances)
+- Used as a DC and a Client
 
 <h2>List of Prerequisites</h2>
+- Create AWS instances (A Client and a Domain Controller) Join them to the DC domain
+- Login to the DC
+- In Active Directory Users and Computers Create New users
+- Create New Security Groups
+- Add Users to Security Groups
+- Create the folder to be Mapped.
+- Share the folder with the Security Group created
+- Create Group policy Object (GPO)
+- Edit GPO and Create a new Drive Map 
+- Login to the Client Machine to see the Mapped Drive
+- Try User in different Security Group
 
-- Create an Azure Virtual Machine Windows 10, 4 vCPUs
-- Install / Enable IIS in Windows WITH CGI
-- install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-- install the Rewrite Module (rewrite_amd64_en-US.msi)
-- Create the directory C:\PHP
-- download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
-- download and install VC_redist.x86.exe.
-- download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-- Open IIS as an Admin and Register PHP from within IIS
-- Install osTicket v1.15.8
-- Reload IIS (Open IIS, Stop and Start the server)
-- Go to sites -> Default -> osTicket (Note that some extensions are not enabled)
-- Rename: ost-config.php and Assign Permissions: ost-config.php
-- Set up osTicket in the browser (click Continue)
-- install HeidiSQL, and Continue Setting up osticket in the browser
-- Clean up (Delete: C:\inetpub\wwwroot\osTicket\setup)
+
 
