@@ -145,4 +145,12 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 - At this pooint, the network drive has been mapped. And we need to login to the client computer to see if it was successful.
 - to do this, let's login to the client machine using Jane Doe. Remember Jane Doe is the only domain User who is also member of our employee security group
 - Go to PC to see if the drive has been mapped.
+
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/240895942-0e058036-2626-40b8-84d1-76342ecc52e5.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
+- As you can see. Our folder (employee data) was mapped as a drive. This means that all users in this security group will have access to the drive and it will be seen whenever they are logged in the client system as a memeber of the employee security group.
 <br />
+
+THANK YOU!
