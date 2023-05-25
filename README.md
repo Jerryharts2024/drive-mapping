@@ -136,7 +136,7 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 <br />
 
 
-<h3>Step :7 Login to the Client Machine to see the Mapped Drive.</h3>
+<h3>Step :8 Login to the Client Machine to see the Mapped Drive.</h3>
 <p>
 <img src="https://user-images.githubusercontent.com/131130119/240857572-7c451cc1-d59a-4b96-bce6-369b13001689.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
 </p>
