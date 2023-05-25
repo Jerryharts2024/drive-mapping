@@ -65,9 +65,7 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 
 <br />
 
-
-
-<h3>Step 3: In Active Directory Users and Computers Create Security Group</h3>
+<h3>Step 3: In Active Directory Users and Computers Create Security and Add User Group</h3>
 <p>
 <img src="https://user-images.githubusercontent.com/131130119/240819396-5aa5b352-2569-4bfd-a810-099c2437e678.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
 </p>
@@ -79,3 +77,27 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 
 <br />
 
+
+
+<h3>Step :4  Create the folder to be Mapped Within the Network.</h3>
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/240822302-fd6385c1-a54d-4f40-b0e8-b188165da340.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
+- To Create the folder to be Mapped Within the Network as a Drive. 
+    - Go to C dirve and create a folder.
+    - for the sake of our demostration, we created a folder named EMPLOYEE DATA
+
+<br />
+
+
+<h3>Step :4  Create the folder to be Mapped Within the Network.</h3>
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/240822302-fd6385c1-a54d-4f40-b0e8-b188165da340.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
+- To Create the folder to be Mapped Within the Network as a Drive. 
+    - Go to C dirve and create a folder.
+    - for the sake of our demostration, we created a folder named EMPLOYEE DATA
+
+<br />
