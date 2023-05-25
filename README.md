@@ -96,9 +96,30 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 <img src="https://user-images.githubusercontent.com/131130119/240826915-09a2668b-0f61-4846-864c-363bac065a81.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
 </p>
 
-- ToShare the folder with the Security Group created. 
+- To Share the folder with the Security Group created. 
     - Go to --> EMPLOYEE DATA --> properties --> sharing
     - add the folder (EMPLOYEE DATA) to the Employee security group.
     - this allows all the users in that group to be able to have access to the Employee data therefore while they are logged in, they should be able to see the drive named EMPLOYEE DATA and be able to read and write in the drive
 
+<br />
+
+
+<h3>Step :6 Create Group policy Object (GPO).</h3>
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/240831639-f9b4d460-e67b-4cc2-bbfe-04172e9622cd.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
+- Create Group policy Object (GPO). 
+    - go to --> active directory dashboard --> group policy management --> and create a GPO called EMPLOYEE GPO
+   
+<br />
+
+<h3>Step :7 Create Group policy Object (GPO).</h3>
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/240831639-f9b4d460-e67b-4cc2-bbfe-04172e9622cd.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
+- Create Group policy Object (GPO). 
+    - go to --> active directory dashboard --> group policy management --> and create a GPO called EMPLOYEE GPO
+   
 <br />
