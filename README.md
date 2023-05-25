@@ -39,4 +39,40 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 - Try User in different Security Group
 
 
+<h2>Deployment and Configuration Steps</h2>
+<br />
+
+<h3>Step 1: Setup Resources in AWS</h3>
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/240813655-64dfacb1-ad19-4943-85cd-dd66789a3854.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
+- Create the Domain Controller VM
+- Create the Client VM (Windows 10) named “Client-1”.
+- Ensure that both VMs are already connected. This invovles setting up the network interface, setting active directory domain services And adding clients to Domain.  Go to ### [How to Deploy on-premises Active Directory within Azure Compute](https://github.com/jerryharts2024/configure-ad)
+
+<br />
+
+
+
+
+
+<h2>Deployment and Configuration Steps</h2>
+<br />
+<h3>Step 1: Setup Resources in Azure</h3>
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/235380469-c636f956-79d5-43b5-957a-169052ec218b.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
+- Create the Domain Controller VM (Windows Server 2022) named “DC-1”
+  - create new virtual machine
+  - name the VM
+- Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
+  - ensure that a resource group is created this time and intall the VM in the RG 
+- Set Domain Controller’s NIC Private IP address to be static
+  - In Azure, go to the network topology change the NIC IP to static
+- Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in Step 1.a
+- Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
+
+<br />
 
