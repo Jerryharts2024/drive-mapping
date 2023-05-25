@@ -11,6 +11,7 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 - ### [YouTube: How To Map a Network Drive Using Group Policy](https://youtu.be/0rPyNMxnIKc)
 
 <h2>Environments and Technologies Used</h2>
+
 - Amazon Web Services - AWS (Instance Machines/Compute)
 - Domain Controller
 - Server Manager
@@ -19,6 +20,7 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 - Group Policy Management
 
 <h2>Operating Systems Used </h2>
+
 - Windows Server 2022 (2 instances)
 - Used as a DC and a Client
 
