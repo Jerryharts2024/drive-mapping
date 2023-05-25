@@ -36,7 +36,7 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 - Create Group policy Object (GPO)
 - Edit GPO and Create a new Drive Map 
 - Login to the Client Machine to see the Mapped Drive
-- Try User in different Security Group
+- Try Login with User in different Security Group
 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -91,13 +91,14 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 <br />
 
 
-<h3>Step :4  Create the folder to be Mapped Within the Network.</h3>
+<h3>Step :5 Share the folder with the Security Group created.</h3>
 <p>
-<img src="https://user-images.githubusercontent.com/131130119/240822302-fd6385c1-a54d-4f40-b0e8-b188165da340.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+<img src="https://user-images.githubusercontent.com/131130119/240826915-09a2668b-0f61-4846-864c-363bac065a81.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
 </p>
 
-- To Create the folder to be Mapped Within the Network as a Drive. 
-    - Go to C dirve and create a folder.
-    - for the sake of our demostration, we created a folder named EMPLOYEE DATA
+- ToShare the folder with the Security Group created. 
+    - Go to --> EMPLOYEE DATA --> properties --> sharing
+    - add the folder (EMPLOYEE DATA) to the Employee security group.
+    - this allows all the users in that group to be able to have access to the Employee data therefore while they are logged in, they should be able to see the drive named EMPLOYEE DATA and be able to read and write in the drive
 
 <br />
