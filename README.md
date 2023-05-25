@@ -111,15 +111,18 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 
 - Create Group policy Object (GPO). 
     - go to --> active directory dashboard --> group policy management --> and create a GPO called EMPLOYEE GPO
-   
 <br />
 
-<h3>Step :7 Create Group policy Object (GPO).</h3>
+<h3>Step :7  Edit GPO and Create a new Drive Map.</h3>
 <p>
-<img src="https://user-images.githubusercontent.com/131130119/240831639-f9b4d460-e67b-4cc2-bbfe-04172e9622cd.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+<img src="https://user-images.githubusercontent.com/131130119/240835346-22f18c5a-8ac4-4deb-b808-04960adbaabe.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
 </p>
 
-- Create Group policy Object (GPO). 
-    - go to --> active directory dashboard --> group policy management --> and create a GPO called EMPLOYEE GPO
+- Edit GPO and Create a new Drive Map. 
+- After creating the GPO, its time to map the Drive
+    - go to GPO --> edit --> preferences --> window setting --> drive map (right click) --> New --> mapped drive
+    - add EMPLOYEE DATA folder location  (this is the network path for the folder can be obtained in the property / sharing)
+    - assign drive letter and make the drive visible by checking on show this drive.
+    
    
 <br />
