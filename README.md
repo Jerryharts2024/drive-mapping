@@ -65,3 +65,17 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 
 <br />
 
+
+
+<h3>Step 3: In Active Directory Users and Computers Create Security Group</h3>
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/240819396-5aa5b352-2569-4bfd-a810-099c2437e678.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
+- In Active Directory Users and Computers Create s Security Group and add the user to the group. 
+    - right click on the domain name, go to --> new --> group 
+    - to add user, right click on the user and go to --> property,  --> member of and add the user to the securtiy group.
+    - this allows the user the rights and  permission to stuffs shared with the security group
+
+<br />
+
