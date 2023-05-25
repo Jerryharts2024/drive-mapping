@@ -47,6 +47,15 @@ This tutorial outlines prerequisites and implementation of network drive mapping
 <img src="https://user-images.githubusercontent.com/131130119/240813655-64dfacb1-ad19-4943-85cd-dd66789a3854.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
 </p>
 
+
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/240861808-74a324e5-8e7c-415b-a959-9c9c30a01807.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
+<p>
+<img src="https://user-images.githubusercontent.com/131130119/240858882-f12da734-3eca-4904-92d5-a88d881c415f.png" height="80%" width="80%" alt="Deployment and Configuration Steps"/>
+</p>
+
 - Create the Domain Controller VM
 - Create the Client VM (Windows 10) named “Client-1”.
 - Ensure that both VMs are already connected. This invovles setting up the network interface, setting active directory domain services And adding clients to Domain.  Go to ### [How to Deploy on-premises Active Directory within Azure Compute](https://github.com/jerryharts2024/configure-ad)
