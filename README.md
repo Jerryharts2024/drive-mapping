@@ -8,7 +8,7 @@ This tutorial outlines prerequisites and implementation of network drive mapping
  
   <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Map a Network Drive Using Group Policy](https://youtu.be/0rPyNMxnIKc)
+- ### [YouTube: How To Map a Network Drive Using Group Policy](https://youtu.be/2JU0ZEWCP58)
 
 <h2>Environments and Technologies Used</h2>
 
